@@ -2,6 +2,8 @@
 
 A small software to clean up build objects of Visual Studio and retains only source code before packaging the source code and ship it to somewhere.
 
+![VisualStudioClean](https://i.imgur.com/eeFsapJ.png)
+
 It deletes dependencies packages, bin, obj, debug and release folder including all the files inside it, use it with caution.
 
 First place the executable and configuration in root folder of your source code you want to ship, click Scan VS and it will determine which folder to delete and you can exclude folder you want to retain.
